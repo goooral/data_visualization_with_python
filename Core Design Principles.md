@@ -4,6 +4,8 @@ layout: default
 nav_order: 5
 has_children: yes
 ---
+# Core design principles 
+
 Data visualization transforms complex datasets into clear, compelling visual stories. It's a powerful tool that can reveal patterns or insights and make abstract concepts tangible.
 
 By following fundamental design concepts, you can create visualizations that are not only visually appealing but also functional and impactful. In this section, the guide exlores the core design principles that form the foundation of effective data visualization. 

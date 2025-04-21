@@ -1,5 +1,5 @@
 ---
-title: Python visualization: an overview
+title: Python visualization an overview
 layout: default
 nav_order: 3
 has_children: yes
