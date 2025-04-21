@@ -1,32 +1,16 @@
+---
+title: The case for better data visualization
+layout: home
+nav_order: 1
+---
+# The case for better data visualization
 
+In today's business environment, communicating data effectively has become essential across all industries. Despite having more data than ever before, many organizations (and individuals) struggle to turn this information into useful insights. This gap often exists because of inadequate visualization techniques.
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Data visualization transforms raw numbers into visual formats that help people see patterns quickly. Good visualizations reveal trends, outliers, and relationships that remain hidden in spreadsheets. However, not all visualization methods work equally well, and the tools we choose significantly impact our ability to communicate clearly.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Standard office software has made basic charts available to everyone, but these tools have serious limitations when dealing with complex data. As datasets grow larger and more complicated, these conventional approaches often fail to cooperate or effectively adjust to users' needs. In contrast, code-based visualization libraries offer several important advantages, especially in the area of versatility. The difficulty stigma associated with code-based tools, however, appears to be a largely discouraging factor for many potential users. At the same time, the growing availability and intelligence of large language models keeps making pure code proficiency less and less necessary for utilizing code-based technologies.
 
-More specifically, the created site:
+This guide examines why traditional visualization tools fall short and how code-based alternatives can significantly improve your data communication. It covers the fundamental principles that make visualizations effective regardless of which tools are used. By understanding the basics, anyone can create visualizations that don't just show data, but clearly communicate the important insights within it. At the same time, the guide includes code-based tools usage examples, as well as an interactive supplement in the form of a Jupyter notebook, in order to make a case for this approach despite its discouraging looks.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+>While this guide is dedicated to a code-based approach to data visualization, presented design principles apply to any and all methods. As long as your existing data visualizations tell a story effectively, your method of choice is of no significance. The code-based approach is only recommended for your convenience.
