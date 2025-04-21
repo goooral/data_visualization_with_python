@@ -2,7 +2,7 @@
 title: Core python visualization libraries
 layout: default
 nav_order: 4
-parent: Python visualization an overview
+parent: An overview
 ---
 # Core python visualization libraries
 
