@@ -1,6 +1,6 @@
 ---
 title: The case for better data visualization
-layout: default
+layout: home
 nav_order: 1
 has_children: true
 ---
