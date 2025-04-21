@@ -1,3 +1,11 @@
+---
+title: Layout and composition basics
+layout: default
+nav_order: 8
+parent: Core design principles
+---
+# Layout and composition basics
+
 The impact of your visualization doesn't stop at the chart - the layout and composition of your data visualization are crucial for effectively communicating your message. A well-designed layout guides the viewer's eye, emphasizes important information, and creates a harmonious overall presentation.
 
 ## Key principles of layout and composition

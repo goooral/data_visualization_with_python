@@ -1,4 +1,10 @@
-# Color teory
+---
+title: Color teory
+layout: default
+nav_order: 7
+parent: Core design principles
+---
+# Color theory
 
 Color is a powerful tool in data visualization. It can guide attention, group related elements, and evoke emotions. Understanding color theory helps create more effective and impactful visualizations. Feel free to paste the code bits into a Jupyter notebook and see how each of them works.
 

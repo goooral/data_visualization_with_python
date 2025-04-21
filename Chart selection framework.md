@@ -1,3 +1,11 @@
+---
+title: Chart selection framework
+layout: default
+nav_order: 6
+parent: Core design principles
+---
+# Chart selection framework
+
 Choosing the right chart type is crucial for effective data visualization. The right chart can make your data easy to understand, while the wrong one can confuse or mislead your audience. Here's a basic framework to help you select the most appropriate chart for your data. Feel free to paste the code bits into a Jupyter notebook and see for yourself.
 
 ## Basic principles of chart selection

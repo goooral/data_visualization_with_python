@@ -1,4 +1,10 @@
-## In-person presentations
+---
+title: In-person presentations
+layout: default
+nav_order: 13
+parent: Data visualization for different scenarios
+---
+# In-person presentations
 
 You can utilize data visualizations and report files altogether when preparing a presentation. You will, however, need to adapt the visualizations to make them larger, with more contrasting colours - all which makes a slide more visible on a large screen in a room. 
 

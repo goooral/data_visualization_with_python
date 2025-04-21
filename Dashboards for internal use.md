@@ -1,4 +1,10 @@
-## Dashboards for internal use
+---
+title: Dashboards for internal use
+layout: default
+nav_order: 10
+parent: Data visualization for different scenarios
+---
+# Dashboards for internal use
 
 Remember to keep the design simple and intuitive, allowing users to quickly grasp key information at a glance while providing the option to delve deeper into the data as needed. The more complex visualizations and statistical information should be presented in a way that doesn't overwhelm less technical users but still provides value to those who understand and need this level of detail. Don't focus too much on aesthetics.
 

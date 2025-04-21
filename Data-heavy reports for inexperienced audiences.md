@@ -1,4 +1,10 @@
-## Data-heavy reports for inexperienced audiences
+---
+title: Data-heavy reports for inexperienced audiences
+layout: default
+nav_order: 12
+parent: Data visualization for different scenarios
+---
+# Data-heavy reports for inexperienced audiences
 
 Avoid overwhelming the audience with too much information at once. Instead, guide them through the most important insights in a logical, easy-to-follow manner. Consider using a layered approach where basic information is presented first, with options to "dig deeper" for those who are interested.
 

@@ -2,7 +2,7 @@
 title: Core design principles
 layout: default
 nav_order: 5
-parent: The case for better data visualization
+has_children: yes
 ---
 Data visualization transforms complex datasets into clear, compelling visual stories. It's a powerful tool that can reveal patterns or insights and make abstract concepts tangible.
 

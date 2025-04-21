@@ -2,8 +2,9 @@
 title: Benefits of code-based visualization
 layout: default
 nav_order: 2
-parent: The case for better data visualization
 ---
+# Benefits of code-based visualization
+
 Code-based visualization offers numerous advantages over traditional tools like Microsoft Office, addressing many common issues faced by data analysts and presenters. Let's explore these benefits:
 
 ## 1. Automation and efficiency

@@ -1,4 +1,10 @@
-## Data-heavy reports for data-advanced audiences
+---
+title: Data-heavy reports for data-advanced audiences
+layout: default
+nav_order: 11
+parent: Data visualization for different scenarios
+---
+# Data-heavy reports for data-advanced audiences
 
 Remember to leverage the technical expertise of your audience by providing rich, detailed information and advanced analytical tools. While the report should be comprehensive, ensure that it's still well-organized and navigable, allowing users to efficiently access the specific data and insights they need.
 

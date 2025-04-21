@@ -2,8 +2,8 @@
 title: The case for better data visualization
 layout: home
 nav_order: 1
-has_children: true
 ---
+# The case for better data visualization
 
 In today's business environment, communicating data effectively has become essential across all industries. Despite having more data than ever before, many organizations (and individuals) struggle to turn this information into useful insights. This gap often exists because of inadequate visualization techniques.
 

@@ -2,8 +2,9 @@
 title: Python visualization: an overview
 layout: default
 nav_order: 3
-parent: The case for better data visualization
+has_children: yes
 ---
+# Python visualization: an overview
 
 ## Why Python for visualization?
 

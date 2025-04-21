@@ -1,3 +1,9 @@
+---
+title: Data visualization for different scenarios
+layout: default
+nav_order: 9
+has_children: yes
+---
 # Data visualization for different scenarios
 
 Data visualization is hardly a one-size-fits-all endeavor. The effectiveness of a visualization can vary greatly depending on the context in which it's used, the audience it's intended for, and the purpose it serves.
