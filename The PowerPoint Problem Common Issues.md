@@ -1,4 +1,4 @@
-# The PowerPoint Problem: Common Issues
+# The PowerPoint problem: common issues
 
 ## Limited data integration
 PowerPoint does not support live data connections. Charts and tables rely on static Excel data. Any data updates require manual intervention, increasing the risk of outdated or incorrect information in reports.
@@ -35,8 +35,3 @@ PowerPoint combines manual adjustments with various automatic formatting behavio
 - Pie charts allow totals exceeding 100% but display errors below 100%.
 - Horizontal bar charts reverse data order by default and reset settings when reopened.
 - Data labels wrap automatically, distorting numerical data, and cannot be globally disabled.  
-
-## A selection of PowerPoint specials
-Here are some recurring PowerPoint frustrations that appear in real-world presentations:
-
-to na potem

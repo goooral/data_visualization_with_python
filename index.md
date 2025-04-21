@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Data vizualization with Python
 layout: home
 ---
 

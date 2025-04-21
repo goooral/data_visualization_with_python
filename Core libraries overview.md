@@ -1,9 +1,9 @@
-# Core Python Visualization Libraries
+# Core python visualization libraries
 
 This section covers three fundamental libraries for data visualization in Python: Matplotlib, Seaborn, and Plotly. Each library has its strengths and ideal use cases.
 Feel free to paste the contents from the codeblocks into a Jupyter notebook and see what happens.
 
-## Matplotlib: The Foundation
+## Matplotlib: the foundation
 
 Matplotlib is the base library for creating static, animated, and interactive visualizations in Python.
 
@@ -44,7 +44,7 @@ ax.grid(True)
 plt.show()
 ```
 
-## Seaborn: Aesthetically Pleasing Statistical Visualizations
+## Seaborn: aesthetically pleasing statistical visualizations
 
 Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive statistical graphics.
 
@@ -72,7 +72,7 @@ plt.title('Tip vs Total Bill')
 plt.show()
 ```
 
-## Plotly: Interactive Plots
+## Plotly: interactive plots
 
 Plotly creates interactive, publication-quality graphs that can be easily integrated into web applications.
 

@@ -1,18 +1,18 @@
-# Python Visualization: An Overview
+# Python visualization: an overview
 
-## Why Python for Visualization?
+## Why Python for visualization?
 
 1. **Versatility**: From simple line graphs to complex interactive dashboards
 2. **Integration**: Seamlessly fits into data analysis workflows
 3. **Ecosystem**: Rich and diverse, catering to various needs and preferences
 4. **Accessibility**: Suitable for beginners and experts alike
 
-## The Visualization Process Overview
+## The visualization process overview
 
 Data Preparation → Plot Selection → Customization → Display/Save
 This streamlined process allows for quick iteration and experimentation with your data.
 
-## Getting Started
+## Getting started
 
 ### Python basics
 
