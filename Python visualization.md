@@ -1,4 +1,9 @@
-# Python visualization: an overview
+---
+title: Python visualization: an overview
+layout: default
+nav_order: 3
+parent: The case for better data visualization
+---
 
 ## Why Python for visualization?
 
