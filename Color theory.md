@@ -6,7 +6,7 @@ parent: Core design principles
 ---
 # Color theory
 
-Color is a powerful tool in data visualization. It can guide attention, group related elements, and evoke emotions. Understanding color theory helps create more effective and impactful visualizations. Feel free to paste the code bits into a Jupyter notebook and see how each of them works.
+Color is a powerful tool in data visualization. It can guide attention, group related elements, and evoke emotions. Understanding color theory helps create more effective and impactful visualizations. Feel free to paste the code bits into a [Jupyter notebook](http://colab.research.google.com/) and see how each of them works.
 
 ## Corporate colors implementation
 
