@@ -1,3 +1,8 @@
+---
+title: The PowerPoint problem
+layout: default
+nav_order: 2
+---
 # The PowerPoint problem: common issues
 
 ## Limited data integration

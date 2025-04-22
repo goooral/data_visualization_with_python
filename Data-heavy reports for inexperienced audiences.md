@@ -1,7 +1,7 @@
 ---
 title: Data-heavy reports for inexperienced audiences
 layout: default
-nav_order: 12
+nav_order: 13
 parent: Data visualization for different scenarios
 ---
 # Data-heavy reports for inexperienced audiences

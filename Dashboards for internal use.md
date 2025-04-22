@@ -1,7 +1,7 @@
 ---
 title: Dashboards for internal use
 layout: default
-nav_order: 10
+nav_order: 11
 parent: Data visualization for different scenarios
 ---
 # Dashboards for internal use

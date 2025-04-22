@@ -1,7 +1,7 @@
 ---
 title: Data-heavy reports for data-advanced audiences
 layout: default
-nav_order: 11
+nav_order: 12
 parent: Data visualization for different scenarios
 ---
 # Data-heavy reports for data-advanced audiences
@@ -38,7 +38,6 @@ For a software house's data-heavy report on documentation system performance:
    - Advanced statistical models like multivariate regression analyses of factors affecting documentation quality
    - Network graphs showing relationships between different documentation components
    - Large charts presenting a lot of data, including subgroups
-   - Bayesian inference results with posterior distribution plots
    - Detailed performance metrics with statistical significance tests
 
 2. **What not to show:**
@@ -51,8 +50,7 @@ For a software house's data-heavy report on documentation system performance:
 3. **Technologies to use:**
    - Plotly for advanced interactive visualizations
    - Seaborn to make large visualizations readable and accessible
-   - Pandas and NumPy for data manipulation and analysis
-   - SciPy and StatsModels for statistical modeling
+   - Pandas and for data manipulation and analysis
 
 4. **Explanations:**
    - Provide detailed methodological explanations, including assumptions and limitations

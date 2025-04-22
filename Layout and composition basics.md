@@ -1,7 +1,7 @@
 ---
 title: Layout and composition basics
 layout: default
-nav_order: 8
+nav_order: 9
 parent: Core design principles
 ---
 # Layout and composition basics
