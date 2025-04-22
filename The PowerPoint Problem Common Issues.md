@@ -4,7 +4,7 @@ layout: default
 nav_order: 2
 ---
 # The PowerPoint problem: common issues
-
+![A PowerPoint chart humourously displaying a relationship between negative emotions and being in contact with PowerPoint charts, all negative to varying degrees](https://github.com/goooral/data_visualization_with_python/blob/main/pp.png?raw=true)
 ## Limited data integration
 PowerPoint does not support live data connections. Charts and tables rely on static Excel data. Any data updates require manual intervention, increasing the risk of outdated or incorrect information in reports.
 
@@ -12,13 +12,6 @@ PowerPoint does not support live data connections. Charts and tables rely on sta
 
 ## Manual updates nightmare
 Each PowerPoint chart is independent. Any change to scale, content, or formatting must be applied manually to every chart.
-
-### Workflow comparison
-| Feature            | PowerPoint | Python (e.g., Matplotlib, Plotly) |
-|--------------------|-----------|----------------------------------|
-| Auto-updating charts | ❌ No       | ✅ Yes (live data connection)   |
-| Data accuracy    | ❌ Error-prone | ✅ Reliable                   |
-| Efficiency        | ❌ Slow       | ✅ Automated                  |
 
 ## File Size Issues  
 PowerPoint charts can become bloated, especially when pasting data with styles. These issues are difficult to detect and fix, often requiring manual intervention.  
