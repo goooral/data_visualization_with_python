@@ -1,12 +1,15 @@
 title: Data visualization with Python
 description: Makes you want to never use MS Office charts ever again.
 theme: just-the-docs
+
 color_scheme: foo
 
 aux_links_new_tab: true
 heading_anchors: true
 
-url: https://just-the-docs.github.io
+url: https://github.com/goooral/data_visualization_with_python
 
+
+footer_content: "Copyright &copy; 2025 Aleksandra Góral. Distributed under the <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
