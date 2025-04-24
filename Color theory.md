@@ -63,7 +63,11 @@ Ensuring your visualizations are accessible to all users, including those with c
 
 4. **Provide alternative text**: Include descriptive alt text for images in digital formats.
 
-### Example of a colorblind-friendly palette:
+### Example of a colorblind-friendly palette
+
+![Eigth color stripes with highly contrasting colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colorblind.png?raw=true)
+
+### Example of a colorblind-friendly chart:
 ```python
 import matplotlib.pyplot as plt
 
