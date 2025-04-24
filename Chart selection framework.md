@@ -90,6 +90,7 @@ plt.show()
 
 ### 4. Scatter plots
 **Use when**: Showing relationship between two variables
+
 **Example**: Relationship between advertising spend and sales
 
 ```python
@@ -108,6 +109,7 @@ plt.show()
 
 ### Histograms
 **Use when**: Showing distribution of a single variable
+
 **Example**: Distribution of test scores in an internal training programme
 
 ```python

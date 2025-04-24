@@ -22,19 +22,27 @@ Incorporating corporate colors into your visualizations helps maintain brand con
 
 4. **Consider color harmony**: Ensure your corporate colors work well together in various combinations.
 
+> **Tip:** Use [THIS](https://color.adobe.com/pl/create/color-wheel) tool to create your colour palettes.
+
+> **Tip:** Seaborn is equipped with quite a few color palettes by default. Take a look [HERE](https://seaborn.pydata.org/tutorial/color_palettes.html)
+
 ### Example:
 ```python
 import matplotlib.pyplot as plt
 
 # Define corporate colors
-primary_color = '#007bff'  # Blue
+primary_color = '#007bff'    # Blue
 secondary_color = '#6c757d'  # Gray
-accent_color = '#ffc107'  # Yellow
+accent_color = '#ffc107'     # Yellow
+extra_color = '#28a745'      # Green 
 
 categories = ['A', 'B', 'C', 'D']
 values = [4, 7, 1, 8]
 
-plt.bar(categories, values, color=primary_color)
+# Assign different colors to each bar
+bar_colors = [primary_color, secondary_color, accent_color, extra_color]
+
+plt.bar(categories, values, color=bar_colors)
 plt.title('Sales by Category', color=secondary_color)
 plt.xlabel('Category', color=secondary_color)
 plt.ylabel('Sales', color=secondary_color)
@@ -69,6 +77,8 @@ plt.bar(categories, values, color=cb_colors)
 plt.title('Sales by Category (Colorblind-friendly)')
 plt.show()
 ```
+
+> **Tip:** If you want to learn more about colorblind-friendly colors, try [HERE}(https://jfly.uni-koeln.de/color/)
 
 ## Emotional impact of colors
 
