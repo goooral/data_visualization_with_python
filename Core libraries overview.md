@@ -7,7 +7,7 @@ parent: An overview
 # Core python visualization libraries
 
 This section covers three fundamental libraries for data visualization in Python: Matplotlib, Seaborn, and Plotly. Each library has its strengths and ideal use cases.
-Feel free to paste the contents from the codeblocks into a Jupyter notebook and see what happens.
+Feel free to paste the contents from the codeblocks into a [Jupyter notebook](http://colab.research.google.com/) and see what happens.
 
 ## Matplotlib: the foundation
 
@@ -21,7 +21,7 @@ Matplotlib is the base library for creating static, animated, and interactive vi
 ### When to use:
 - For basic plots (line, scatter, bar)
 - When you need fine-grained control over plot elements
-- In scientific publications or reports
+- When you're making a guide on data visualization with Python and need to show all basic libraries - this is as basic as it gets
 
 ### Example:
 ```python
