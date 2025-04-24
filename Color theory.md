@@ -1,5 +1,5 @@
 ---
-title: Color teory
+title: Color theory
 layout: default
 nav_order: 8
 parent: Core design principles
