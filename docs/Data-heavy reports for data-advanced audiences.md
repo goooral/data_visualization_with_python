@@ -8,6 +8,8 @@ parent: Data visualization for different scenarios
 
 Remember to leverage the technical expertise of your audience by providing rich, detailed information and advanced analytical tools. While the report should be comprehensive, ensure that it's still well-organized and navigable, allowing users to efficiently access the specific data and insights they need.
 
+![5/5 complexity, 3/5 aesthetics, 5/5 details](https://github.com/goooral/data_visualization_with_python/blob/main/images/prof2.png?raw=true)
+
 ### Audience characteristics
 In this scenario, data-heavy reports are typically designed for:
 - Data scientists and analysts

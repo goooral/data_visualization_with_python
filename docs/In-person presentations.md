@@ -8,6 +8,8 @@ parent: Data visualization for different scenarios
 
 You can utilize data visualizations and report files altogether when preparing a presentation. You will, however, need to adapt the visualizations to make them larger, with more contrasting colours - all which makes a slide more visible on a large screen in a room. 
 
+![2/5 complexity, 4/5 aesthetics, 2/5 details](https://github.com/goooral/data_visualization_with_python/blob/main/images/prof4.png?raw=true)
+
 ### Audience characteristics
 In this scenario, presentations are typically designed for:
 - Mixed groups of technical and non-technical stakeholders

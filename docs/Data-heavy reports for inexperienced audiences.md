@@ -8,6 +8,8 @@ parent: Data visualization for different scenarios
 
 Avoid overwhelming the audience with too much information at once. Instead, guide them through the most important insights in a logical, easy-to-follow manner. Consider using a layered approach where basic information is presented first, with options to "dig deeper" for those who are interested.
 
+![3/5 complexity, 3/5 aesthetics, 4/5 details](https://github.com/goooral/data_visualization_with_python/blob/main/images/prof3.png?raw=true)
+
 ### Audience characteristics
 In this scenario, data-heavy reports are typically designed for:
 - Non-technical stakeholders and decision-makers
