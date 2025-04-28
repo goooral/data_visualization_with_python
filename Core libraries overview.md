@@ -6,24 +6,30 @@ parent: An overview
 ---
 # Core python visualization libraries
 
-This section covers three fundamental libraries for data visualization in Python: Matplotlib, Seaborn, and Plotly. Each library has its strengths and ideal use cases.
+This section covers three fundamental libraries for data visualization in Python:
+1. Matplotlib.
+2. Seaborn.
+3. Plotly.
+  
+Each library has its strengths and ideal use cases.
 Feel free to paste the contents from the codeblocks into a [Jupyter notebook](http://colab.research.google.com/) and see what happens.
-
+<!-- link should open in tab -->
 ## Matplotlib: the foundation
 
 Matplotlib is the base library for creating static, animated, and interactive visualizations in Python.
 
 ### Benefits:
-- Highly customizable
-- Supports many plot types
-- Works well with NumPy and Pandas
+- Highly customizable.
+- Supports many plot types.
+- Works well with NumPy and Pandas.
 
 ### When to use:
-- For basic plots (line, scatter, bar)
-- When you need fine-grained control over plot elements
-- When you're making a guide on data visualization with Python and need to show all basic libraries - this is as basic as it gets
-
+- For basic plots (line, scatter, bar).
+- When you need fine-grained control over plot elements.
+- When you're making a guide on data visualization with Python and need to show all basic libraries - this is as basic as it gets.
+<!-- if you want to involve user to execute the code below, here should be microinstruction how to render it in Jupyter -->
 ### Example:
+<!-- it's too abstract for casual user. Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -49,22 +55,24 @@ ax.grid(True)
 # Display the plot
 plt.show()
 ```
-
+<!-- code snippet works -->
 ## Seaborn: aesthetically pleasing statistical visualizations
 
 Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive statistical graphics.
 
 ### Benefits:
-- Attractive default styles
-- Built-in themes for professional-looking plots
-- Integrates well with Pandas DataFrames
+- Attractive default styles.
+- Built-in themes for professional-looking plots.
+- Integrates well with Pandas DataFrames.
 
 ### When to use: 
-- For statistical data visualization
-- When working with dataframes
-- To create plots quickly with less code
-
+- For statistical data visualization.
+- When working with dataframes.
+- To create plots quickly with less code.
+<!-- here should be crossref to microinstruction -->
 ### Example:
+<!-- Here should be an image, how this code is rendered -->
+![seabornChart_example](/images/seaborn_example1.png)
 ```python
 import seaborn as sns
 import pandas as pd
@@ -83,16 +91,17 @@ plt.show()
 Plotly creates interactive, publication-quality graphs that can be easily integrated into web applications.
 
 ### Benefits:
-- Highly interactive plots
-- Supports a wide range of chart types
-- Easy to integrate with web applications
+- Highly interactive plots.
+- Supports a wide range of chart types.
+- Easy to integrate with web applications.
 
 ### When to use:
-- For creating interactive dashboards
-- When you need to share interactive plots online
-- For complex visualizations like 3D plots or animations
+- For creating interactive dashboards.
+- When you need to share interactive plots online.
+- For complex visualizations like 3D plots or animations.
 
-### Example: 
+### Example:
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import plotly.express as px
 import pandas as pd
@@ -105,3 +114,4 @@ fig = px.scatter(df, x="gdpPercap", y="lifeExp", size="pop", color="continent",
                  hover_name="country", log_x=True, size_max=60)
 fig.show()
 ```
+<!-- code snippet works -->

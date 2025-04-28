@@ -27,9 +27,9 @@ Data visualization is hardly a one-size-fits-all endeavor. The effectiveness of 
    - Different stakeholders may have specific preferences or requirements for how data is presented in their organization or field.
 
 By tailoring your data visualizations to specific scenarios, you can:
-- Enhance understanding and engagement
-- Improve decision-making processes
-- Increase the impact and memorability of your insights
-- Avoid confusion or misinterpretation of data
+- Enhance understanding and engagement.
+- Improve decision-making processes.
+- Increase the impact and memorability of your insights.
+- Avoid confusion or misinterpretation of data.
 
 The following section presents a few different scenarios differentiated mostly by the intended audience.

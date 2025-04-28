@@ -6,14 +6,16 @@ parent: Core design principles
 ---
 # Chart selection framework
 
-Choosing the right chart type is crucial for effective data visualization. The right chart can make your data easy to understand, while the wrong one can confuse or mislead your audience. Here's a basic framework to help you select the most appropriate chart for your data. Feel free to paste the code bits into a Jupyter notebook and see for yourself.
+Choosing the right chart type is crucial for effective data visualization. The right chart can make your data easy to understand, while the wrong one can confuse or mislead your audience. Here's a basic framework to help you select the most appropriate chart for your data.
 
+> **Let's check it with paste the code bits into a Jupyter notebook and see how it render.**
+<!-- plus link to Jupyter and corssref to microinstruction -->
 ## Basic principles of chart selection
 
 1. **Understand your data**: 
-   - What type of data do you have? (categorical, numerical, time series)
-   - How many variables are you comparing?
-   - Does it sum up to 100%?
+   - What type of data do you have? (categorical, numerical, time series).
+   - How many variables are you comparing?.
+   - Does it sum up to 100%?.
 
 2. **Know your purpose**:
    - What's the main message you want to convey?
@@ -26,10 +28,10 @@ Choosing the right chart type is crucial for effective data visualization. The r
 ## Common chart types and when to use them
 
 ### 1. Bar charts
-**Use when**: Comparing categories or showing ranking
+**Use when**: Comparing categories or showing ranking.
 
-**Example**: Comparing sales figures across different product categories
-
+> **Example**: *Comparing sales figures across different product categories.*
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -42,16 +44,16 @@ plt.xlabel('Category')
 plt.ylabel('Sales')
 plt.show()
 ```
-
+<!-- code snippet works -->
 **Tips**:
 - Unless there is a specific reason not to do so, try to rank the data largest to smallest in order to improve readablity.
 - Consider your goal when decding between showing individual values and presenting numerical ranges on the axes.
 
 ### 2. Line charts
-**Use when**: Showing trends over time
+**Use when**: Showing trends over time.
 
-**Example**: Revenue growth in 2024
-
+> **Example**: *Revenue growth in 2024.*
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -64,15 +66,15 @@ plt.xlabel('Month')
 plt.ylabel('Price')
 plt.show()
 ```
-
+<!-- code snippet works -->
 **Tips**:
 - Line charts are good at showing trends, not individual values.
 
 ### 3. Pie charts
-**Use when**: Showing composition or parts of a whole 
+**Use when**: Showing composition or parts of a whole.
 
-**Example**: Breakdown of company expenses
-
+**Example**: Breakdown of company expenses.
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -83,16 +85,16 @@ plt.pie(values, labels=expenses, autopct='%1.1f%%')
 plt.title('Company Expense Breakdown')
 plt.show()
 ```
-
+<!-- code snippet works -->
 **Tips**: 
 - The values must sum up to 100%.
 - Reconsider using this type of a chart if you have too many values to present.
 
 ### 4. Scatter plots
-**Use when**: Showing relationship between two variables
+**Use when**: Showing relationship between two variables.
 
-**Example**: Relationship between advertising spend and sales
-
+**Example**: Relationship between advertising spend and sales.
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -105,13 +107,12 @@ plt.xlabel('Ad Spend ($1000s)')
 plt.ylabel('Sales ($1000s)')
 plt.show()
 ```
-
-
+<!-- code snippet works -->
 ### Histograms
-**Use when**: Showing distribution of a single variable
+**Use when**: Showing distribution of a single variable.
 
-**Example**: Distribution of test scores in an internal training programme
-
+**Example**: Distribution of test scores in an internal training programme.
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -124,6 +125,6 @@ plt.xlabel('Score')
 plt.ylabel('Frequency')
 plt.show()
 ```
-
+<!-- code snippet works -->
 **Tips**:
-- This may look like a bar chart, however it presents a fundamentally different type of data. You can read more [HERE](https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts)
+- This may look like a bar chart, however it presents a fundamentally different type of data. You can read more [HERE](https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts).
