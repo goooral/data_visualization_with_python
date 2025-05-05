@@ -22,9 +22,9 @@ Incorporating corporate colors into your visualizations helps maintain brand con
 
 4. **Consider color harmony**: Ensure your corporate colors work well together in various combinations.
 
-> **Tip:** Use [THIS](https://color.adobe.com/pl/create/color-wheel) tool to create your colour palettes.
+> **Tip:** Use [Adobe Color Tool](https://color.adobe.com/pl/create/color-wheel) to create your colour palettes.
 
-> **Tip:** Seaborn is equipped with quite a few color palettes by default. Take a look [HERE](https://seaborn.pydata.org/tutorial/color_palettes.html)
+> **Tip:** Seaborn is equipped with quite a few color palettes by default. Take a look at [this part of its documentation](https://seaborn.pydata.org/tutorial/color_palettes.html){:target="_blank"}.
 
 ### Example:
 ```python

@@ -28,7 +28,9 @@ Choosing the right chart type is crucial for effective data visualization. The r
 ### 1. Bar charts
 **Use when**: Comparing categories or showing ranking
 
-**Example**: Comparing sales figures across different product categories
+> **Example**: *Comparing sales figures across different product categories.*
+
+![A chart showing sales of four categories of products](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart1.png?raw=true)
 
 ```python
 import matplotlib.pyplot as plt
@@ -44,13 +46,15 @@ plt.show()
 ```
 
 **Tips**:
-- Unless there is a specific reason not to do so, try to rank the data largest to smallest in order to improve readablity.
+- Unless there is a specific reason not to do so, try to rank the data largest to smallest in order to improve readablity. In the example above, the reason not to rank them is the order of the categories resented on the chart.
 - Consider your goal when decding between showing individual values and presenting numerical ranges on the axes.
 
 ### 2. Line charts
 **Use when**: Showing trends over time
 
-**Example**: Revenue growth in 2024
+> **Example**: *Revenue growth in 2024.*
+
+![A line chart showing uneven price growth between January and May](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart2.png?raw=true)
 
 ```python
 import matplotlib.pyplot as plt
@@ -71,7 +75,9 @@ plt.show()
 ### 3. Pie charts
 **Use when**: Showing composition or parts of a whole 
 
-**Example**: Breakdown of company expenses
+**Example**: *Breakdown of company expenses.*
+
+![A pie chart showing a breakdown of a few categories of typical company expenses](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart3.png?raw=true)
 
 ```python
 import matplotlib.pyplot as plt
@@ -91,7 +97,9 @@ plt.show()
 ### 4. Scatter plots
 **Use when**: Showing relationship between two variables
 
-**Example**: Relationship between advertising spend and sales
+**Example**: Relationship between advertising spend and sales.
+
+![A chart showing five items and their positions on the sales and ad spend axes](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart4.png?raw=true)
 
 ```python
 import matplotlib.pyplot as plt
@@ -105,12 +113,12 @@ plt.xlabel('Ad Spend ($1000s)')
 plt.ylabel('Sales ($1000s)')
 plt.show()
 ```
-
-
 ### Histograms
 **Use when**: Showing distribution of a single variable
 
-**Example**: Distribution of test scores in an internal training programme
+**Example**: Distribution of test scores in an internal training programme.
+
+![A histogram showing statistical distribution of test scores](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart5.png?raw=true)
 
 ```python
 import matplotlib.pyplot as plt
