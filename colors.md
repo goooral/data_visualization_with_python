@@ -1,12 +1,14 @@
 ---
-title: Color theory
+title: Colors
 layout: default
 nav_order: 8
 parent: Core design principles
 ---
-# Color theory
+# Colors
 
-Color is a powerful tool in data visualization. It can guide attention, group related elements, and evoke emotions. Understanding color theory helps create more effective and impactful visualizations. Feel free to paste the code bits into a [Jupyter notebook](http://colab.research.google.com/) and see how each of them works.
+Color is a powerful tool in data visualization. It can guide attention, group related elements, and evoke emotions. Implementing color intentionally helps create more effective and impactful visualizations. 
+
+> **You can try to paste the code bits into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
 
 ## Corporate colors implementation
 
@@ -15,18 +17,14 @@ Incorporating corporate colors into your visualizations helps maintain brand con
 ### Key principles:
 
 1. **Use the primary brand color for emphasis**: Highlight key data points or important information.
-
 2. **Incorporate secondary colors**: Use these for supporting elements or to create contrast.
-
 3. **Create a consistent color palette**: Develop a set of colors that complement your brand colors for use across all visualizations.
-
 4. **Consider color harmony**: Ensure your corporate colors work well together in various combinations.
-
-> **Tip:** Use [THIS](https://color.adobe.com/pl/create/color-wheel) tool to create your colour palettes.
-
-> **Tip:** Seaborn is equipped with quite a few color palettes by default. Take a look [HERE](https://seaborn.pydata.org/tutorial/color_palettes.html)
+> **Tip:** Use [Adobe Color Tool](https://color.adobe.com/pl/create/color-wheel) to create your colour palettes.
+> **Tip:** Seaborn is equipped with quite a few color palettes by default. Take a look at [this part of its documentation](https://seaborn.pydata.org/tutorial/color_palettes.html){:target="_blank"}.
 
 ### Example:
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -56,18 +54,22 @@ Ensuring your visualizations are accessible to all users, including those with c
 ### Key principles:
 
 1. **Don't rely solely on color**: Use patterns, labels, or icons in addition to color to convey information.
-
 2. **Ensure sufficient color contrast**: Make sure text and important elements stand out from the background.
-
 3. **Use colorblind-friendly palettes**: Choose color combinations that are distinguishable by people with various types of color blindness.
-
 4. **Provide alternative text**: Include descriptive alt text for images in digital formats.
-
+   
 ### Example of a colorblind-friendly palette
+
+A colorblind-friendly palette example looks like this:
 
 ![Eigth color stripes with highly contrasting colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colorblind.png?raw=true)
 
+> **Tip:** If you want to learn more about colorblind-friendly colors, take a look at [this extensive exploration of the topic](https://jfly.uni-koeln.de/color/){:target="_blank"}.
+
 ### Example of a colorblind-friendly chart:
+
+And this is how a different colorblind-palette looks like in action: 
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -82,31 +84,28 @@ plt.title('Sales by Category (Colorblind-friendly)')
 plt.show()
 ```
 
-> **Tip:** If you want to learn more about colorblind-friendly colors, try [HERE}(https://jfly.uni-koeln.de/color/)
-
 ## Emotional impact of colors
 
 Colors can evoke different emotions and associations, which can be leveraged to enhance the message of your visualization.
 
 ### Common color associations:
 
-- **Red**: Warning, importance, negative
-- **Green**: Growth, nature, positive
-- **Blue**: Trust, calm, professionalism 
-- **Yellow**: Optimism, energy, caution
-- **Purple**: Luxury, creativity, mystery
-- **Orange**: Enthusiasm, adventure, confidence
-- **Gray**: Neutrality, calm
+- **Red**: Warning, importance, negative.
+- **Green**: Growth, nature, positive.
+- **Blue**: Trust, calm, professionalism.
+- **Yellow**: Optimism, energy, caution.
+- **Purple**: Luxury, creativity, mystery.
+- **Orange**: Enthusiasm, adventure, confidence.
+- **Gray**: Neutrality, calm.
 
 ### Key Principles:
 
 1. **Choose colors that match your message**: Use colors that reinforce the emotion or idea you're trying to convey.
-
 2. **Especially pay attention to green and red**: It is common to associate green with *good* and red with *bad*. Keep this in mind and use these two colours accordingly.
-
 3. **Use color**: Maintain the same palette most of the time, using other colors to highlight elements when necessary.
 
 ### Example:
+<!-- Here should be an image, how this code is rendered -->
 ```python
 import matplotlib.pyplot as plt
 
@@ -122,16 +121,16 @@ plt.show()
 
 In this example, we use a color gradient from green to red to show sales performance, leveraging the emotional associations of these colors:
 
-- Green (Q1): Indicates a positive start, growth
-- Yellow (Q2): Suggests caution or a transition
-- Orange (Q3): Implies increasing urgency or attention needed
-- Red (Q4): Signifies importance or a critical period
+- Green (Q1): Indicates a positive start, growth.
+- Yellow (Q2): Suggests caution or a transition.
+- Orange (Q3): Implies increasing urgency or attention needed.
+- Red (Q4): Signifies importance or a critical period.
 
 This color scheme quickly communicates the progression and urgency of sales performance throughout the year, even before the viewer examines the specific values.
 
 ## Conclusion
 
-Color theory plays a crucial role in creating effective and impactful data visualizations. Remember these key points:
+Color theory plays a crucial role in creating **effective and impactful data visualizations**. Remember these key points:
 
 1. Use corporate colors strategically to maintain brand identity while ensuring clarity in your visualizations.
 2. Always consider accessibility to make your visualizations inclusive and understandable for all audiences.
