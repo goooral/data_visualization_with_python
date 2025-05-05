@@ -6,10 +6,10 @@ parent: Data visualization for different scenarios
 ---
 # Data-heavy reports for inexperienced audiences
 
-Avoid overwhelming the audience with too much information at once. Instead, guide them through the most important insights in a logical, easy-to-follow manner. Consider using a layered approach where basic information is presented first, with options to "dig deeper" for those who are interested.
+Avoid overwhelming the audience with too much information at once. Instead, guide them through the most important insights in a logical, easy-to-follow manner. Consider using a layered approach where basic information is presented first, with options to "dig deeper" and find more information for those who are interested.
 
 ![3/5 complexity, 3/5 aesthetics, 4/5 details](https://github.com/goooral/data_visualization_with_python/blob/main/images/prof3.png?raw=true)
-<!-- in order of order -->
+
 ### Audience characteristics
 In this scenario, data-heavy reports are typically designed for:
 - Non-technical stakeholders and decision-makers.
@@ -43,7 +43,7 @@ For a software house's data-heavy report on documentation system performance for
    - Basic heat maps to show patterns in data, with clear explanations.
    - Infographics that combine simple charts with explanatory text.
    - Simple tree maps for hierarchical data representation.
-<!-- here should be an image example -->
+
 2. **What not to show:**
    - Complex statistical analyses without clear explanations.
    - Box plots, violin plots, or other advanced statistical visualizations.
@@ -51,7 +51,7 @@ For a software house's data-heavy report on documentation system performance for
    - Raw data tables with numerous columns or rows.
    - Technical jargon or industry-specific acronyms without definitions.
    - Detailed methodology sections that may overwhelm the reader.
-<!-- here should be an image example -->
+
 3. **Technologies to use:**
    - Matplotlib for creating simple, clean charts.
    - Seaborn for slightly more advanced but still intuitive visualizations.

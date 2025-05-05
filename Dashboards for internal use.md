@@ -9,7 +9,7 @@ parent: Data visualization for different scenarios
 Remember to keep the design simple and intuitive, allowing users to quickly grasp key information at a glance while providing the option to delve deeper into the data as needed. The more complex visualizations and statistical information should be presented in a way that doesn't overwhelm less technical users but still provides value to those who understand and need this level of detail. Don't focus too much on aesthetics.
 
 ![2/5 complexity, 1/5 aesthetics, 3/5 details](https://github.com/goooral/data_visualization_with_python/blob/main/images/prof1.png?raw=true)
-<!-- in order of order (three dots at top, two below, one at bottom) -->
+
 ### Audience characteristics
 In this scenario, internal dashboards are typically designed for:
 - Technical writers and content creators.
@@ -41,14 +41,14 @@ For a software house's documentation team dashboard:
    - Correlation matrices for various documentation quality metrics.
    - Statistical significance indicators for A/B tests on documentation improvements.
    - Time series forecasts for upcoming workload based on historical data.
-<!-- here should be an image example -->
+
 2. **What not to show:**
    - Elaborate infographics that prioritize design over data clarity.
    - Animated visualizations that may distract from the core information.
    - Highly technical statistical outputs (e.g., full regression results) without context.
    - Visualizations that require extensive domain knowledge to interpret.
    - Complicated chart types like radar charts or bubble charts that may confuse users.
-<!-- here should be an image example -->
+
 3. **Technologies to use:**
    - Plotly for interactive charts and graphs.
    - Dash (built on Plotly) for creating the dashboard interface.

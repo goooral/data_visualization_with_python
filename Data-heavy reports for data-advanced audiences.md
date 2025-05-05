@@ -9,7 +9,7 @@ parent: Data visualization for different scenarios
 Remember to leverage the technical expertise of your audience by providing rich, detailed information and advanced analytical tools. While the report should be comprehensive, ensure that it's still well-organized and navigable, allowing users to efficiently access the specific data and insights they need.
 
 ![5/5 complexity, 3/5 aesthetics, 5/5 details](https://github.com/goooral/data_visualization_with_python/blob/main/images/prof2.png?raw=true)
-<!-- in order of order (five dots at top, five with lower rank in logic hierarchy below, three at bottom) -->
+
 ### Audience characteristics
 In this scenario, data-heavy reports are typically designed for:
 - Data scientists and analysts.
@@ -41,14 +41,14 @@ For a software house's data-heavy report on documentation system performance:
    - Network graphs showing relationships between different documentation components.
    - Large charts presenting a lot of data, including subgroups.
    - Detailed performance metrics with statistical significance tests.
-<!-- here should be an image example -->
+
 2. **What not to show:**
    - Oversimplified visualizations that obscure important nuances in the data.
    - Basic descriptive statistics without following up with deeper analysis.
    - Charts lacking descriptors like error bars or significant differences - when needed.
    - Aggregate data without the option to drill down into more granular levels.
    - Conclusions without supporting data or methodologies.
-<!-- here should be an image example -->
+
 3. **Technologies to use:**
    - Plotly for advanced interactive visualizations.
    - Seaborn to make large visualizations readable and accessible.

@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # The PowerPoint problem: common issues
 ![A PowerPoint chart humourously displaying a relationship between negative emotions and being in contact with PowerPoint charts, all negative to varying degrees](https://github.com/goooral/data_visualization_with_python/blob/main/images/pp.png?raw=true)
-<!-- are red underlines in pic intentional? -->
+
 ## Limited data integration
 PowerPoint does not support live data connections. Charts and tables **rely on static Excel data**. Any data updates require manual intervention, increasing the risk of outdated or incorrect information in reports.
 

@@ -6,7 +6,7 @@ nav_order: 3
 # Benefits of code-based visualization
 
 Code-based visualization offers numerous advantages over traditional tools like Microsoft Office, addressing many common issues faced by data analysts and presenters. Let's explore these benefits:
-<!-- repetition of text from the index. It's better to expand on the second sentence, explaining what the benefit really is  -->
+
 ## 1. Automation and efficiency
 
 Code-based tools allow you to create scripts that automatically generate charts and graphs. This means you can:
@@ -16,7 +16,7 @@ Code-based tools allow you to create scripts that automatically generate charts 
 - Increase productivity in your data presentation workflow.
 
 > **Example:** *Instead of manually updating 20 charts in a PowerPoint presentation, you can run a single Python script that refreshes all visualizations with the latest data in seconds.*
-<!-- stay consistent with this element. Every time U use it, should looks the same -->
+
 ## 2. Consistency and reproducibility
 
 When using code, you can define styles and formats once and apply them across all your visualizations. This ensures:
@@ -46,7 +46,7 @@ By connecting directly to data sources, code-based visualizations:
 
 ## 5. Flexibility and customization
 
-Programming languages like Python offer extensive libraries for data visualization, providing:
+Programming languages like Python offer extensive libraries for data visualization (like Matplotlib, Seaborn, or Plotly), providing:
 
 - More options and greater control over the final output.
 - The ability to create complex, interactive visualizations.
