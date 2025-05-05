@@ -6,14 +6,16 @@ parent: Core design principles
 ---
 # Chart selection framework
 
-Choosing the right chart type is crucial for effective data visualization. The right chart can make your data easy to understand, while the wrong one can confuse or mislead your audience. Here's a basic framework to help you select the most appropriate chart for your data. Feel free to paste the code bits into a Jupyter notebook and see for yourself.
+Choosing the right chart type is crucial for effective data visualization. The right chart can make your data easy to understand, while the wrong one can confuse or mislead your audience. Here's a basic framework to help you select the most appropriate chart for your data.
+
+> **You can try to paste the code bits into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
 
 ## Basic principles of chart selection
 
 1. **Understand your data**: 
-   - What type of data do you have? (categorical, numerical, time series)
-   - How many variables are you comparing?
-   - Does it sum up to 100%?
+   - What type of data do you have? (categorical, numerical, time series).
+   - How many variables are you comparing?.
+   - Does it sum up to 100%?.
 
 2. **Know your purpose**:
    - What's the main message you want to convey?
@@ -97,7 +99,7 @@ plt.show()
 ### 4. Scatter plots
 **Use when**: Showing relationship between two variables
 
-**Example**: Relationship between advertising spend and sales.
+**Example**: *Relationship between advertising spend and sales.*
 
 ![A chart showing five items and their positions on the sales and ad spend axes](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart4.png?raw=true)
 
@@ -116,7 +118,7 @@ plt.show()
 ### Histograms
 **Use when**: Showing distribution of a single variable
 
-**Example**: Distribution of test scores in an internal training programme.
+**Example**: *Distribution of test scores in an internal training programme.*
 
 ![A histogram showing statistical distribution of test scores](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart5.png?raw=true)
 
@@ -134,4 +136,4 @@ plt.show()
 ```
 
 **Tips**:
-- This may look like a bar chart, however it presents a fundamentally different type of data. You can read more [HERE](https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts)
+- This may look like a bar chart, however it presents a fundamentally different type of data. Take a look at [this blogpost](https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts){:target="_blank"} to read more about the difference.

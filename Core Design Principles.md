@@ -13,9 +13,9 @@ By following fundamental design concepts, you can create visualizations that are
 ## Why design matters
 
 Design in data visualization:
-- Makes information clear
-- Helps viewers understand data quickly
-- Increases the impact of your message
+- Makes information clear.
+- Helps viewers understand data quickly.
+- Increases the impact of your message.
 
 ## General rules
 
@@ -26,4 +26,3 @@ Design in data visualization:
 5. Use size, color, and position to guide viewers to important information.
 6. Use the same styles and formats in all parts of your visualization.
 7. Make sure people with different visual abilities can understand your visualization.
-
