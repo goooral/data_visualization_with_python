@@ -12,7 +12,8 @@ This section covers three fundamental libraries for data visualization in Python
 3. Plotly.
   
 Each library has its strengths and ideal use cases.
-Feel free to paste the contents from the codeblocks into a [Jupyter notebook](http://colab.research.google.com/){:target="_blank"} and see what happens.
+
+> **You can try to paste the code snippets into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
 
 ## Matplotlib: the foundation
 
@@ -78,7 +79,6 @@ Seaborn is built on top of Matplotlib and provides a high-level interface for dr
 
 ![A seaborn scatterplot with a regression line in a pleasant blue palette](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib2.png?raw=true)
 
-![seabornChart_example](/images/seaborn_example1.png)
 ```python
 import seaborn as sns
 import pandas as pd

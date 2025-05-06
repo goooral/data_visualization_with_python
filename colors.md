@@ -72,7 +72,7 @@ A colorblind-friendly palette example looks like this:
 
 ### Example of a colorblind-friendly chart:
 
-And this is how a different colorblind-palette looks like in action: 
+And this is what a colorblind-palette looks like in action: 
 
 ![A chart with seven bars in highly contrasting colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors2.png?raw=true)
 
@@ -131,7 +131,7 @@ In this example, we use a color gradient from green to red to show sales perform
 
 ## Conclusion
 
-Color theory plays a crucial role in creating **effective and impactful data visualizations**. Remember these key points:
+Color selection plays a crucial role in creating **effective and impactful data visualizations**. Remember these key points:
 
 1. Use corporate colors strategically to maintain brand identity while ensuring clarity in your visualizations.
 2. Always consider accessibility to make your visualizations inclusive and understandable for all audiences.

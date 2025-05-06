@@ -135,5 +135,4 @@ plt.ylabel('Frequency')
 plt.show()
 ```
 
-**Tips**:
-- This may look like a bar chart, however it presents a fundamentally different type of data. Take a look at [this blogpost](https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts){:target="_blank"} to read more about the difference.
+>**Tip:** This may look like a bar chart, however it presents a fundamentally different type of data. Take a look at [this blogpost](https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts){:target="_blank"} to read more about the difference.
