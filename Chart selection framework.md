@@ -30,7 +30,7 @@ Choosing the right chart type is crucial for effective data visualization. The r
 ### 1. Bar charts
 **Use when**: Comparing categories or showing ranking
 
-> **Example**: *Comparing sales figures across different product categories.*
+**Example**: *Comparing sales figures across different product categories.*
 
 ![A chart showing sales of four categories of products](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart1.png?raw=true)
 
@@ -54,7 +54,7 @@ plt.show()
 ### 2. Line charts
 **Use when**: Showing trends over time
 
-> **Example**: *Revenue growth in 2024.*
+**Example**: *Revenue growth in 2024.*
 
 ![A line chart showing uneven price growth between January and May](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart2.png?raw=true)
 

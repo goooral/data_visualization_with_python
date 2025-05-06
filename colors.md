@@ -26,7 +26,9 @@ Incorporating corporate colors into your visualizations helps maintain brand con
 > **Tip:** Seaborn is equipped with quite a few color palettes by default. Take a look at [this part of its documentation](https://seaborn.pydata.org/tutorial/color_palettes.html){:target="_blank"}.
 
 ### Example:
-<!-- Here should be an image, how this code is rendered -->
+
+![A chart with bars in four different colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors1.png?raw=true)
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -71,7 +73,9 @@ A colorblind-friendly palette example looks like this:
 ### Example of a colorblind-friendly chart:
 
 And this is how a different colorblind-palette looks like in action: 
-<!-- Here should be an image, how this code is rendered -->
+
+![A chart with seven bars in highly contrasting colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors2.png?raw=true)
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -107,28 +111,23 @@ Colors can evoke different emotions and associations, which can be leveraged to 
 3. **Use color**: Maintain the same palette most of the time, using other colors to highlight elements when necessary.
 
 ### Example:
-<!-- Here should be an image, how this code is rendered -->
+
+![A chart presenting four bars where low score=red and high score=green](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors3.png?raw=true)
+
 ```python
 import matplotlib.pyplot as plt
 
 categories = ['Q1', 'Q2', 'Q3', 'Q4']
 values = [10000, 15000, 13000, 17000]
 
-colors = ['#4CAF50', '#FFC107', '#FF9800', '#F44336']  # Green to Red
+colors = ['#F44336', '#FFC107', '#FF9800', '#4CAF50']  # Green is good, red is bad
 plt.bar(categories, values, color=colors)
 plt.title('Quarterly Sales Performance')
 plt.ylabel('Sales ($)')
 plt.show()
 ```
 
-In this example, we use a color gradient from green to red to show sales performance, leveraging the emotional associations of these colors:
-
-- Green (Q1): Indicates a positive start, growth.
-- Yellow (Q2): Suggests caution or a transition.
-- Orange (Q3): Implies increasing urgency or attention needed.
-- Red (Q4): Signifies importance or a critical period.
-
-This color scheme quickly communicates the progression and urgency of sales performance throughout the year, even before the viewer examines the specific values.
+In this example, we use a color gradient from green to red to show sales performance, leveraging the emotional associations of these colors. This color scheme quickly communicates the progression of sales performance throughout the year, even before the viewer examines the specific values.
 
 ## Conclusion
 

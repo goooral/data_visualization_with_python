@@ -28,7 +28,7 @@ Matplotlib is the base library for creating static, animated, and interactive vi
 - When you need fine-grained control over plot elements.
 - When you're making a guide on data visualization with Python and need to show all basic libraries - this is as basic as it gets.
 
-> **Tip** *If you choose to take a look at the code snippets in action, simply create a new [Jupyter notebook](http://colab.research.google.com/){:target="_blank"}, paste the code into the code cell on your screen and click the "play" button next to the cell.*
+> **Tip:** *If you choose to take a look at the code snippets in action, simply create a new [Jupyter notebook](http://colab.research.google.com/){:target="_blank"}, paste the code into the code cell on your screen and click the "play" button next to the cell.*
 
 ### Example:
 <!-- it's too abstract for casual user. Here should be an image, how this code is rendered -->
