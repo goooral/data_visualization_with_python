@@ -14,8 +14,8 @@ Choosing the right chart type is crucial for effective data visualization. The r
 
 1. **Understand your data**: 
    - What type of data do you have? (categorical, numerical, time series).
-   - How many variables are you comparing?.
-   - Does it sum up to 100%?.
+   - How many variables are you comparing?
+   - Does it sum up to 100%?
 
 2. **Know your purpose**:
    - What's the main message you want to convey?
