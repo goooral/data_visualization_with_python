@@ -8,7 +8,7 @@ parent: Core design principles
 
 Color is a powerful tool in data visualization. It can guide attention, group related elements, and evoke emotions. Implementing color intentionally helps create more effective and impactful visualizations. 
 
-> **You can try to paste the code bits into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
+> **You can try to paste the code snippets into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
 
 ## Corporate colors implementation
 

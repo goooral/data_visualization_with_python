@@ -8,7 +8,7 @@ parent: Core design principles
 
 Choosing the right chart type is crucial for effective data visualization. The right chart can make your data easy to understand, while the wrong one can confuse or mislead your audience. Here's a basic framework to help you select the most appropriate chart for your data.
 
-> **You can try to paste the code bits into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
+> **You can try to paste the code snippets into a [Jupyter notebook](https://colab.research.google.com){:target="_blank"} and see how it works.**
 
 ## Basic principles of chart selection
 

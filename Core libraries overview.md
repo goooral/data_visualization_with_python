@@ -31,7 +31,9 @@ Matplotlib is the base library for creating static, animated, and interactive vi
 > **Tip:** *If you choose to take a look at the code snippets in action, simply create a new [Jupyter notebook](http://colab.research.google.com/){:target="_blank"}, paste the code into the code cell on your screen and click the "play" button next to the cell.*
 
 ### Example:
-<!-- it's too abstract for casual user. Here should be an image, how this code is rendered -->
+
+![A simple line chart done in matplotlib](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib1.png?raw=true)
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -73,7 +75,9 @@ Seaborn is built on top of Matplotlib and provides a high-level interface for dr
 - To create plots quickly with less code.
 
 ### Example:
-<!-- Here should be an image, how this code is rendered -->
+
+![A seaborn scatterplot with a regression line in a pleasant blue palette](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib2.png?raw=true)
+
 ![seabornChart_example](/images/seaborn_example1.png)
 ```python
 import seaborn as sns
@@ -103,7 +107,11 @@ Plotly creates interactive, publication-quality graphs that can be easily integr
 - For complex visualizations like 3D plots or animations.
 
 ### Example:
-<!-- Here should be an image, how this code is rendered -->
+
+![A snapshot of a plotly scatterplot](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib3.png?raw=true)
+
+>**Tip:** *In this case, trying the code snippet yourself is especially recommended. The picture above is merely a snapshot of this interactive plot.*
+
 ```python
 import plotly.express as px
 import pandas as pd
