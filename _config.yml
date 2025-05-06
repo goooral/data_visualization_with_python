@@ -1,6 +1,7 @@
 title: Data visualization with Python
 description: Makes you want to never use MS Office charts ever again.
 theme: just-the-docs
+color_scheme: green
 
 aux_links_new_tab: true
 heading_anchors: true
@@ -11,4 +12,4 @@ url: https://github.com/goooral/data_visualization_with_python
 footer_content: "Copyright &copy; 2025 Aleksandra Góral. Distributed under the <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 # These link (& Just the Docs at the bottom of naviagtion as well) should open in new tab (target blank). For now it switch directly.
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Source Repository: https://github.com/goooral/data_visualization_with_python

@@ -110,7 +110,7 @@ Plotly creates interactive, publication-quality graphs that can be easily integr
 
 ![A snapshot of a plotly scatterplot](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib3.png?raw=true)
 
->**Tip:** *In this case, trying the code snippet yourself is especially recommended. The picture above is merely a snapshot of this interactive plot.*
+>**Tip:** *In this case, trying the code snippet by yourself is especially recommended. The picture above is merely a snapshot of this interactive plot.*
 
 ```python
 import plotly.express as px
