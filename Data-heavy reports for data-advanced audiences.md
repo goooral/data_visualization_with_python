@@ -45,7 +45,7 @@ For a software house's data-heavy report on documentation system performance:
 2. **What not to show:**
    - Oversimplified visualizations that obscure important nuances in the data.
    - Basic descriptive statistics without following up with deeper analysis.
-   - Charts lacking descriptors like error bars or significant differences - when needed.
+   - Charts lacking descriptors like error bars or significant differences – when needed.
    - Aggregate data without the option to drill down into more granular levels.
    - Conclusions without supporting data or methodologies.
 

@@ -9,7 +9,7 @@ In today's business environment, communicating data effectively has become essen
 Data visualization transforms raw numbers into visual formats that help people see patterns quickly. Good visualizations reveal:
 - trends,
 - outliers,
-- relationships,
+- relationships
 
 that remain hidden in spreadsheets. However, not all visualization methods work equally well, and the tools we choose significantly impact our ability to communicate clearly.
 

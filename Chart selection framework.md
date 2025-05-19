@@ -21,7 +21,7 @@ Choosing the right chart type is crucial for effective data visualization. The r
    - What's the main message you want to convey?
    - Are you showing comparison, composition, distribution, or relationship?
 
-3. **Keep It Simple**:
+3. **Keep it simple**:
    - Choose the simplest chart type that effectively communicates your message.
    - Don't add on unnecessary elements to the chart. Stick with the minimum.
 
@@ -115,7 +115,7 @@ plt.xlabel('Ad Spend ($1000s)')
 plt.ylabel('Sales ($1000s)')
 plt.show()
 ```
-### Histograms
+### 5. Histograms
 **Use when**: Showing distribution of a single variable
 
 **Example**: *Distribution of test scores in an internal training programme.*

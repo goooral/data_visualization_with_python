@@ -60,6 +60,7 @@ ax.grid(True)
 # Display the plot
 plt.show()
 ```
+>**Tip:** *Check out the [Matplotlib documentation](https://matplotlib.org/stable/index.html){:target="_blank"}.*
 
 ## Seaborn: aesthetically pleasing statistical visualizations
 
@@ -91,6 +92,7 @@ sns.regplot(x="total_bill", y="tip", data=tips)
 plt.title('Tip vs Total Bill')
 plt.show()
 ```
+>**Tip:** *Check out the [Seaborn documentation](https://seaborn.pydata.org){:target="_blank"}.*
 
 ## Plotly: interactive plots
 
@@ -124,3 +126,4 @@ fig = px.scatter(df, x="gdpPercap", y="lifeExp", size="pop", color="continent",
                  hover_name="country", log_x=True, size_max=60)
 fig.show()
 ```
+>**Tip:** *Check out the [Plotly documentation](https://plotly.com/python/){:target="_blank"}.*

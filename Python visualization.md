@@ -30,7 +30,7 @@ or reach for more specialized courses available on [Codeacademy](https://www.cod
 
 ### Notebooks
 
-Once you familiarize yourself with the syntax, you can begin working on your first visualizations. In order to set up your workspace, you need a python notebook.
+Once you familiarize yourself with the syntax, you can begin working on your first visualizations. In order to set up your workspace, you need a Python notebook.
 
 #### Jupyter
 
@@ -46,7 +46,7 @@ Jupyter is an open-source project that provides a web-based interactive computin
 
 As a beginner, in order to learn and train you might want to pick [Google Colab](https://colab.google/){:target="_blank"}.
 
-Google Colab is a free, cloud-based platform based on Jupyter notebooks available your browser. Each time you set up a Google Colab environment, it is in fact a virtual machine hosted on Google infrastructure. This allows you to work on powerful hardware and utilize all possibilities offered by Jupyter notebooks without the lengthy set-up of a local environment.
+Google Colab is a free, cloud-based platform based on Jupyter notebooks available in your browser. Each time you set up a Google Colab environment, it is in fact a virtual machine hosted on Google infrastructure. This allows you to work on powerful hardware and utilize all possibilities offered by Jupyter notebooks without the lengthy set-up of a local environment.
 
 Colab seamlessly integrates with other Google services, allowing you to:
 
@@ -54,4 +54,4 @@ Colab seamlessly integrates with other Google services, allowing you to:
 - Save your work directly to the cloud.
 - Access a wide range of pre-installed libraries.
 
->**In order to present python visualizations in action, this guide comes with a [sample Jupyter notebook](https://colab.research.google.com/drive/1EeotEW_-YPLUxfeOq0ZHz4z0j4WTZQjM?usp=sharing){:target="_blank"}. The file presents a typical notebook set up, data preparation and visualization examples.**
+>**In order to present Python visualizations in action, this guide comes with a [sample Jupyter notebook](https://colab.research.google.com/drive/1EeotEW_-YPLUxfeOq0ZHz4z0j4WTZQjM?usp=sharing){:target="_blank"}. The file presents a typical notebook setup, data preparation and visualization examples.**
