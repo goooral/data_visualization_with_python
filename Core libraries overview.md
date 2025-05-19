@@ -33,7 +33,7 @@ Matplotlib is the base library for creating static, animated, and interactive vi
 
 ### Example:
 
-![A simple line chart done in matplotlib](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib1.png?raw=true)
+![A simple line chart done in matplotlib]({{ '/images/lib1.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
@@ -78,7 +78,7 @@ Seaborn is built on top of Matplotlib and provides a high-level interface for dr
 
 ### Example:
 
-![A seaborn scatterplot with a regression line in a pleasant blue palette](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib2.png?raw=true)
+![A seaborn scatterplot with a regression line in a pleasant blue palette]({{ '/images/lib2.png' | relative_url }})
 
 ```python
 import seaborn as sns
@@ -110,7 +110,7 @@ Plotly creates interactive, publication-quality graphs that can be easily integr
 
 ### Example:
 
-![A snapshot of a plotly scatterplot](https://github.com/goooral/data_visualization_with_python/blob/main/images/lib3.png?raw=true)
+![A snapshot of a plotly scatterplot]({{ '/images/lib3.png' | relative_url }})
 
 >**Tip:** *In this case, trying the code snippet by yourself is especially recommended. The picture above is merely a snapshot of this interactive plot.*
 

@@ -27,7 +27,7 @@ Incorporating corporate colors into your visualizations helps maintain brand con
 
 ### Example:
 
-![A chart with bars in four different colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors1.png?raw=true)
+![A chart with bars in four different colors]({{ '/images/colors1.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@ Ensuring your visualizations are accessible to all users, including those with c
 
 A colorblind-friendly palette example looks like this:
 
-![Eigth color stripes with highly contrasting colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colorblind.png?raw=true)
+![Eigth color stripes with highly contrasting colors]({{ '/images/colorblind.png' | relative_url }})
 
 > **Tip:** If you want to learn more about colorblind-friendly colors, take a look at [this extensive exploration of the topic](https://jfly.uni-koeln.de/color/){:target="_blank"}.
 
@@ -74,7 +74,7 @@ A colorblind-friendly palette example looks like this:
 
 And this is what a colorblind-palette looks like in action: 
 
-![A chart with seven bars in highly contrasting colors](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors2.png?raw=true)
+![A chart with seven bars in highly contrasting colors]({{ '/images/colors2.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
@@ -112,7 +112,7 @@ Colors can evoke different emotions and associations, which can be leveraged to 
 
 ### Example:
 
-![A chart presenting four bars where low score=red and high score=green](https://github.com/goooral/data_visualization_with_python/blob/main/images/colors3.png?raw=true)
+![A chart presenting four bars where low score=red and high score=green]({{ '/images/colors3.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt

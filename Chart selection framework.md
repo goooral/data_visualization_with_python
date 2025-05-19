@@ -32,7 +32,7 @@ Choosing the right chart type is crucial for effective data visualization. The r
 
 **Example**: *Comparing sales figures across different product categories.*
 
-![A chart showing sales of four categories of products](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart1.png?raw=true)
+![A chart showing sales of four categories of products]({{ '/images/chart1.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
@@ -56,7 +56,7 @@ plt.show()
 
 **Example**: *Revenue growth in 2024.*
 
-![A line chart showing uneven price growth between January and May](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart2.png?raw=true)
+![A line chart showing uneven price growth between January and May]({{ '/images/chart2.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
@@ -79,7 +79,7 @@ plt.show()
 
 **Example**: *Breakdown of company expenses.*
 
-![A pie chart showing a breakdown of a few categories of typical company expenses](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart3.png?raw=true)
+![A pie chart showing a breakdown of a few categories of typical company expenses]({{ '/images/chart3.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
@@ -120,7 +120,7 @@ plt.show()
 
 **Example**: *Distribution of test scores in an internal training programme.*
 
-![A histogram showing statistical distribution of test scores](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart5.png?raw=true)
+![A histogram showing statistical distribution of test scores]({{ '/images/chart5.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
