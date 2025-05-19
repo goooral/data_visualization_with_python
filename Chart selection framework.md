@@ -101,7 +101,7 @@ plt.show()
 
 **Example**: *Relationship between advertising spend and sales.*
 
-![A chart showing five items and their positions on the sales and ad spend axes](https://github.com/goooral/data_visualization_with_python/blob/main/images/chart4.png?raw=true)
+![A chart showing five items and their positions on the sales and ad spend axes]({{ '/images/chart4.png' | relative_url }})
 
 ```python
 import matplotlib.pyplot as plt
